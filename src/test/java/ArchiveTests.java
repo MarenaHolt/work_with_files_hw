@@ -1,7 +1,6 @@
 import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
 import com.opencsv.CSVReader;
-import org.apache.commons.jexl2.UnifiedJEXL;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -11,11 +10,8 @@ import java.io.Reader;
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
-import java.util.zip.ZipInputStream;
 
 public class ArchiveTests {
-
-    ClassLoader cl = ArchiveTests.class.getClassLoader();
 
     @Test
     void zipTest() throws Exception {

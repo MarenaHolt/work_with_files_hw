@@ -1,10 +1,11 @@
 package model;
 
-import java.io.File;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Person {
     private String value;
-    private String unrestricted_value;
+    @JsonProperty(value = "unrestricted_value")
+    private String unrestrictedValue;
 
     private DataModel data;
 
@@ -16,12 +17,12 @@ public class Person {
         this.value = value;
     }
 
-    public String getUnrestricted_value() {
-        return unrestricted_value;
+    public String getUnrestrictedValue() {
+        return unrestrictedValue;
     }
 
-    public void setUnrestricted_value(String unrestricted_value) {
-        this.unrestricted_value = unrestricted_value;
+    public void setUnrestrictedValue(String unrestrictedValue) {
+        this.unrestrictedValue = unrestrictedValue;
     }
 
     public DataModel getData() {
