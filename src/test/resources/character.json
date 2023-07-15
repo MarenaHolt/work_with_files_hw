@@ -1,0 +1,15 @@
+{
+  "books": [
+    "Harry Porter and the Philosophers Stone",
+    "Harry Porter and the Chamber of Secrets",
+    "Harry Porter and the Prisoner of Azkaban",
+    "Harry Porter and the Goblet of Fire",
+    "Harry Porter and the Order ot the Phoenix",
+    "Harry Potter and the Half-Blood Prince",
+    "Harry Potter and the Deathly Hallows"
+  ],
+  "firstName": "Harry",
+  "lastName": "Potter",
+  "city": "London",
+  "countBooks": 7
+}
